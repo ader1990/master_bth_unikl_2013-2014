@@ -1,0 +1,4 @@
+About the class:
+	http://edu.bth.se/utbildning/utb_kurstillfalle.asp?lang=en&KtTermin=20132&KtAnmKod=8526P&parentPtKod=PAASI13h1
+Expandable multi-agent based architecture for StarCraft Bots
+	http://www.youtube.com/watch?v=dazKY2IpjeQ
