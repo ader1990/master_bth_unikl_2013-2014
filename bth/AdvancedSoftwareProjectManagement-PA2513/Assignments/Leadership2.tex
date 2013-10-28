@@ -1,0 +1,142 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{cite}
+\usepackage{epigraph}
+
+% \epigraphsize{\small}% Default
+\setlength\epigraphwidth{8cm}
+\setlength\epigraphrule{0pt}
+
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\epigraph}{\@epitext{#1}}{\itshape\@epitext{#1}}{}{}
+\makeatother
+% *** GRAPHICS RELATED PACKAGES ***
+%
+\ifCLASSINFOpdf
+  % \usepackage[pdftex]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../pdf/}{../jpeg/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.pdf,.jpeg,.png}
+\else
+  % or other class option (dvipsone, dvipdf, if not using dvips). graphicx
+  % will default to the driver specified in the system graphics.cfg if no
+  % driver is specified.
+  % \usepackage[dvips]{graphicx}
+  % declare the path(s) where your graphic files are
+  % \graphicspath{{../eps/}}
+  % and their extensions so you won't have to specify these with
+  % every instance of \includegraphics
+  % \DeclareGraphicsExtensions{.eps}
+\fi
+
+% correct bad hyphenation here
+\hyphenation{op-tical net-works semi-conduc-tor leader-ship technology}
+
+\begin{document}
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+% Do not put math or special symbols in the title.
+\title{Leadership for a mixed team of junior and senior developers}
+
+
+% author names and affiliations
+% use a multiple column layout for up to three different
+% affiliations
+\author{\IEEEauthorblockN{Adrian Vladu}
+\IEEEauthorblockA{European Master in \\Software Engineering\\
+Blekinge Institute of Technology\\
+Karlskrona, Sweden\\
+Email: adrian.vladu21@gmail.com}}
+
+% make the title area
+\maketitle
+
+% As a general rule, do not put math, special symbols or citations
+% in the abstract
+\begin{abstract}
+Leadership is done by humans, not tools.
+\end{abstract}
+
+\IEEEpeerreviewmaketitle
+
+\section{Task}
+In this assignment you are required to write an essay to demonstrate your understanding of the leadership role in software projects and ability to apply it in the given situation. Detailed requirements follow.
+\newline\indent
+Imagine yourself as a project manager of a group of eight developers.
+From these eight, four developers are experienced and mature, while four are young university graduates who have been just recruited.
+\newline\indent
+Describe the effects of imbalance in the experience on the dynamics of team behaviour, and your role as the leader in addressing this challenge. 
+\newline
+
+\section{Techniques used}
+Use agile methodologies, because are focused on communication and collaboration, which should easily level up the distance and knowledge between the team components.
+\newline\indent
+Organize trainings held by both of the two parts - the young will give a training on a newly appeared technology and the seniors on existing technologies that they master perfectly
+\newline\indent
+Organize a teambuilding once 6 sprints, considering a sprint of 2 weeks, so that people get to a better understanding of also the social, moral values of the other team members.
+\newline\indent
+Associate a younger developer a senior developer as a supervisor and pillar of knowledge. When the junior is in neeed of help, the senior will be the first stop when seeking help.
+\newline\indent
+Allocate to the junior developers 20\% percent of the time spent at work to learn new things, without any pressure from the leader or management side.
+\newline\indent
+Involve employees to set their own goals, as a team
+
+
+\newpage
+\section{Ideas}
+The project manager has a fulltime job.
+Situational leadership.
+Create value as perceived by followers.
+Power changes from seller to buyers - Kickstart/Indiegogo.
+Technology is getting borders closer.
+What can be done will be done, sooner or later, if not by you, by some one else.
+Real leaders believe in change.
+Behavioural sciences deal with probabilities.
+Managers do things right. Leaders do right things.
+Performance starts from bottom-up, with the one-to-one relationships.
+Are leaders born or made?
+Diagnose, adapt and communicate.
+Plan, organize, motivate and control.
+Understand, predict and change behaviour. Control means manipulation and viceversa, depending on the point of view and the expected outcome. :) uuf, I am so relieved.
+A hammer won't always do the job.
+If you want to change your behaviour, you have to practice. Reading/learning will give you just a conceptual view. :)) At last, someone agrees with me.\cite{IEEEhowto:fulltime}\\
+
+\indent
+Although \emph{David W. Galenson}, in his work \emph{``Old Masters and Young Geniuses: The Two Life Cycles of Artistic Creativity"}, refers to plastic artists, I strongly believe that the same ideas can be applied to programming and software engineering. As a consequence, software products can be considered as the unique resut of an art form. The team members' creativity and past knowledge can balance each other, if the process is managed properly, during which the leader can act as a middleman. The ability to achieve a goal, to finish successfully a task can be native or hard-earned. One may innovate successfully at the conceptual level, but it requires a long time of trial-and-error or learning for experimental and solid innovation. The ability to radically innovate can decrease with age, as a person is inclined to self-establish a set of rigid methods and conventions.\cite{IEEEhowto:oldvsyoung}
+
+\epigraph{``When a situation requires a new way of looking at things, the acquisition of new techniques, or even new vocabularies, the old seem stereotyped and rigid....But when a situation requires a store of past knowledge then the old find their advantage over the young."}{--- \textup{Harvey Lehman}, 1953
+}
+
+\newpage
+\section{Juniors}
+\section{Seniors}
+
+\newpage
+\section{Conclusion}
+
+% use section* for acknowledgement
+\section*{Acknowledgment}
+The author would like to thank to his teachers.
+
+\newpage
+\begin{thebibliography}{99}
+
+
+\bibitem{IEEEhowto:fulltime}
+Paul Hersey, Kenneth H. Blanchard and Dewey E. Johnson, \emph{Management of Organizational Behavior: Leading Human Resources}
+
+\bibitem{IEEEhowto:oldvsyoung}
+David W. Galenson, \emph{Old Masters and Young Geniuses: The Two Life Cycles of Artistic Creativity}
+
+\bibitem{IEEEhowto:lehman}
+\emph{Harvey Lehman, 1953} 
+
+\end{thebibliography}
+
+\end{document}
+
+
